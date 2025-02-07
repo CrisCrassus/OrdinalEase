@@ -1,5 +1,7 @@
 <?php
 
+namespace CrisCrassus\OrdinalEase;
+
 class Ordinal
 {
     public static function get(int $number): string
