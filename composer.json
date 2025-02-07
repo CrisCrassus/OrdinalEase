@@ -2,6 +2,7 @@
     "name": "criscrassus/ordinalease",
     "description": "A package that just return ordinal numbers in PHP with ease",
     "type": "composer-plugin",
+    "version": "1.0.0"
     "license": "MIT",
     "autoload": {
         "psr-4": {
