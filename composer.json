@@ -1,19 +1,32 @@
 {
-    "name": "criscrassus/ordinalease",
-    "description": "A package that just return ordinal numbers in PHP with ease",
-    "type": "composer-plugin",
-    "version": "1.0.0"
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "CrisCrassus\\OrdinalEase\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "CrisCrassus",
-            "email": "criscrassus@proton.me"
-        }
-    ],
-    "require": {}
+  "name": "criscrassus/ordinalease",
+  "description": "A simple PHP package to return ordinal numbers with ease.",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CrisCrassus\\OrdinalEase\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Cris Crassus",
+      "email": "criscrassus@proton.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "keywords": ["ordinal", "numbers", "PHP", "formatter"],
+  "homepage": "https://github.com/criscrassus/ordinalease",
+  "support": {
+    "issues": "https://github.com/criscrassus/ordinalease/issues",
+    "source": "https://github.com/criscrassus/ordinalease"
+  }
 }
