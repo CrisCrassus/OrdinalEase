@@ -1,11 +1,11 @@
 {
-    "name": "cris/ordinal",
+    "name": "criscrassus/ordinalease",
     "description": "A package that just return ordinal numbers in PHP with ease",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cris\\Ordinal\\": "src/"
+            "CrisCrassus\\OrdinalEase\\": "src/"
         }
     },
     "authors": [
